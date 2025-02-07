@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className="bg-[#FBEBB5] w-full flex flex-col items-center">
       {/* <Navbar bgColor={"#FBEBB5"} /> */}
-      <div className="w-full h-[700px] flex flex-col lg:flex-row items-center justify-between px-4 lg:px-8 py-12">
+      <div className="w-full h-[600px] flex flex-col lg:flex-row items-center justify-between px-4 lg:px-8 py-12">
         {/* Left Section */}
         <div className="flex flex-col justify-center items-center lg:items-start lg:pl-16 text-center lg:text-left pt-12 lg:pt-0">
           <h1 className="text-black text-[2.5rem] sm:text-[3.5rem] md:text-[4rem] font-medium w-full">

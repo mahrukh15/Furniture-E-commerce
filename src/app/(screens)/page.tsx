@@ -4,6 +4,7 @@ import OurBlogs from "@/components/sections/ourBlog";
 import OurInstagram from "@/components/sections/ourinstagram";
 import OurProductSection from "@/components/sections/OurProductSection";
 import ShareSetupSection from "@/components/sections/ShareSetupSection";
+import Chat from "./../../chat"
 
 export default async function Home() {
   return (
@@ -16,6 +17,7 @@ export default async function Home() {
       </div>
       <OurBlogs/>
       <OurInstagram/>
+      <Chat/>
     </main>
   );
 }
